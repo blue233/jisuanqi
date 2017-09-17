@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+        android:id="@+id/action_jingzhi"
+        android:title="进制转换"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_area"
+        android:title="面积"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_length"
+        android:title="长度"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_temperature"
+        android:title="温度"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_volume"
+        android:title="体积"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_quality"
+        android:title="质量"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_data"
+        android:title="数据"
+        app:showAsAction="never"/>
+</menu>

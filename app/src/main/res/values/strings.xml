@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">计算器</string>
+    <string name="hint_text">输入表达式</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_area">AreaActivity</string>
+    <string name="title_activity_length">LengthActivity</string>
+    <string name="title_activity_temperature">TemperatureActivity</string>
+    <string name="title_activity_volume">VolumeActivity</string>
+    <string name="title_activity_quality">QualityActivity</string>
+    <string name="title_activity_data">DataActivity</string>
+    <string name="title_activity_jinzhi">JinzhiActivity</string>
+</resources>

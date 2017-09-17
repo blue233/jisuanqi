@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="area_items">
+        <item >公顷</item>
+        <item >平方厘米</item>
+        <item >平方米</item>
+        <item >顷</item>
+        <item >亩</item>
+    </string-array>
+    <string-array name="length_items">
+        <item >毫米</item>
+        <item >厘米</item>
+        <item >米</item>
+        <item >公里</item>
+        <item >英寸</item>
+        <item >英尺</item>
+        <item >码</item>
+        <item >海里</item>
+        <item >英里</item>
+    </string-array>
+    <string-array name="temperature_items">
+        <item >摄氏度</item>
+        <item >华氏度</item>
+        <item >开尔文</item>
+    </string-array>
+    <string-array name="volume_items">
+        <item >加仑</item>
+        <item >升</item>
+        <item >毫升</item>
+        <item >立方厘米</item>
+        <item >立方米</item>
+    </string-array>
+    <string-array name="quality_items">
+        <item >吨</item>
+        <item >磅</item>
+        <item >盎司</item>
+        <item >千克</item>
+        <item >克</item>
+    </string-array>
+    <string-array name="data_items">
+        <item >比特</item>
+        <item >字节(B)</item>
+        <item >千字节(KB)</item>
+        <item >兆字节(MB)</item>
+        <item >千兆字节(GB)</item>
+        <item >万亿字节(TB)</item>
+    </string-array>
+    <string-array name="jinzh_items">
+        <item >二进制</item>
+        <item >八进制</item>
+        <item >十进制</item>
+        <item >十六进制</item>
+    </string-array>
+</resources>

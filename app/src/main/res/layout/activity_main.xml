@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.example.admin.jisuanqi.MainActivity" >
+
+    <!-- 标题 -->
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorBlue"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/edit_input"
+        android:layout_width="match_parent"
+        android:layout_height="171dp"
+        android:layout_above="@+id/grid_buttons1"
+        android:hint="@string/hint_text"
+        android:padding="10dp"
+        android:textSize="22sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/bt_menu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="menu"/>
+
+        <Button
+            android:id="@+id/bt_science"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1111"/>
+
+        <Button
+            android:id="@+id/bt_c"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="⇦"/>
+
+    </LinearLayout>
+    <!--android:gravity="start"-->
+    <GridView
+        android:id="@+id/grid_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="4"
+        android:layout_margin="10dip"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+
+         >
+
+    </GridView>
+
+</LinearLayout>
